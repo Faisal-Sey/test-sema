@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.cdnfonts.com/css/bison');
+body {
+  margin: 0;
+  font-family: 'Gotham', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  font-family: 'Gotham', sans-serif;
+}
+
+:root {
+ --primary-color: #FC8A2B;
+ --primary-blue-color: #001253;
+ --secondary-blue-color: #3e6d9c;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
