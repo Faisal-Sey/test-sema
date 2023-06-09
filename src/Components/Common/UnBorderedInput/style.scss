@@ -14,10 +14,7 @@
   .typing {
     border-bottom: 2px solid var(--secondary-blue-color);
   }
-  // input::placeholder {
-  //   color: #CDC8CE;
-  // }
-  input::-webkit-input-placeholder {
+  input::placeholder {
     color: #CDC8CE;
   }
 }
